@@ -17,5 +17,5 @@ fn main() {
     elves.sort_by(|a, b| b.cmp(a)); // sort elves by highest number
 
     // return first element in array
-    println!("{}", elves[0]);
+    println!("{}", elves[0] + elves[1] + elves[2]);
 }
